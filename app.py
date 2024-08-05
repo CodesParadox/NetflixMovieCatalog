@@ -36,7 +36,7 @@ def get_discover():
             if int(genre_id) in item['genre_ids']:
                 results.append(item)
                 if len(results) >= 20:
-                    break  # stop searching after the first 20 items
+                    break  # stop searching after the first 20 items =)
 
     return jsonify(results)
 
